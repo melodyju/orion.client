@@ -30,7 +30,9 @@ define("orion/editor/stylers/text_x-java-source/syntax", ["orion/editor/stylers/
 		"val", "var", //$NON-NLS-1$ //$NON-NLS-0$
 		"while", //$NON-NLS-0$
 		"with", //$NON-NLS-0$
-		"yield" //$NON-NLS-0$
+		"yield", //$NON-NLS-0$
+		"-", ":", "=", "=>", "<-", "<:", //$NON-NLS-5$ //$NON-NLS-4$ //$NON-NLS-3$ //$NON-NLS-2$ //$NON-NLS-1$ //$NON-NLS-0$
+		"<%", ">:", "#", "@" //$NON-NLS-3$ //$NON-NLS-2$ //$NON-NLS-1$ //$NON-NLS-0$
 	];
 
 	var grammars = mLib.grammars;
